@@ -45,3 +45,18 @@ nav > a:hover {
     text-decoration: underline;
     background-color: #910000;
 }
+
+section {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
+
+section > div {
+    display: flex;
+}
+
+img {
+    border-radius: 10px;
+    width: 50vw;;
+}
