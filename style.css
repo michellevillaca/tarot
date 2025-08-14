@@ -53,7 +53,7 @@ section {
 }
 
 section > div {
-    display: flex;
+    display: grid;
 }
 
 img {
