@@ -57,7 +57,7 @@ nav > a:hover {
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.944);
+    background-color: rgba(225, 225, 225, 0.944);
     margin: 59px;
     border-radius: 10px;
     padding: 5px 20px;
@@ -69,11 +69,11 @@ section {
     padding: 10px;
 }
 
-section > div {
+section > div.item {
     display: grid;
 }
 
-picture{
+picture {
     text-align: center;
 }
 
@@ -97,4 +97,26 @@ p {
     flex: auto;
     text-indent: 30px;
     line-height: 1.4;
+}
+
+section.segundo {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: content-box;
+}
+
+div.arcanos {
+    width: 300px;
+    max-width: 400px;
+}
+
+picture.arcanos {
+    justify-content: center;
+}
+
+p.arcanos {
+    max-width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
