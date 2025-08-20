@@ -106,17 +106,26 @@ section.segundo {
 }
 
 div.arcanos {
-    width: 300px;
-    max-width: 400px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
+    max-width: 370px;
 }
 
 picture.arcanos {
+    display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
 p.arcanos {
-    max-width: 300px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    max-width: 350px;
+}
+
+section.terceiro {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: content-box;
 }
